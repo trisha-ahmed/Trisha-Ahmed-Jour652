@@ -1,0 +1,58 @@
+/* styles for my resume */
+
+/* standard text on the page */
+BODY {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
+}
+
+/* banner name at top: TRISHA AHMED */
+h1 {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #33485e;
+}
+
+/* title: REPORTER & M.J. CANDIDATE AT THE UNIVERSITY OF MARYLAND */
+strong {
+  color: #33485e;
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+/* section titles: Experience, Education, Skills */
+h2 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: #fff;
+  font-weight: 400;
+}
+
+/* job title: Investigative Reporter, etc */
+h3 {
+  font-weight: 600;
+  font-style: bold;
+  font-size: 1.5em;
+}
+
+/* organization name: Howard Center, etc */
+h4 {
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+/* dates worked: June 2020 - present, etc */
+h5 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
+}
+
+/* lists: contact info, education, skills */
+ul {
+  font-size: 1em;
+}

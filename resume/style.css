@@ -8,10 +8,12 @@ BODY {
   font-weight: 400;
 }
 
+/* new skill: adding a container */
 #container {
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin:0 auto;
+  padding-bottom: 50px;
 }
 
 /* banner name at top: TRISHA AHMED */
@@ -38,12 +40,14 @@ BODY {
   margin-right: 0;
 }
 
+/* new skill: changing html tags to css divs */
 .menu {
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
 
+/* this is the tricky part! tripped lot of people up this time */
 .menu li{
   display: inline;
 }
@@ -87,6 +91,7 @@ BODY {
   margin-bottom: 0;
 }
 
+/* body text... used to be the <p> tag */
 .description {
   margin: 10px 0px;
 }
@@ -98,7 +103,7 @@ BODY {
     margin-right: 0;
     margin-left: 0;
 }
-
+/* skills list */
 #do {
   margin-top: 5px;
   margin-bottom: 0;
@@ -110,6 +115,16 @@ ul {
   font-size: 1em;
 }
 
+/* mission statement at the top */
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin:0 auto;
+  margin-bottom: 30px;
+}
+
 /* 1st commit and sync to GitHub repo */
 /* 2nd commit and sync to GitHub repo */
 /* 3rd commit and sync to GitHub repo */
+
+/* 10/7/20 1st commit and sync to GitHub repo */

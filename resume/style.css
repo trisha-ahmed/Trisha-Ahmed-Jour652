@@ -24,7 +24,7 @@ BODY {
   border-bottom: 1px solid #33485e;
   width: 60%;
   min-width: 300px;
-  margin: 0 auto;
+  margin:0 auto;
 }
 
 /* title: REPORTER & M.J. CANDIDATE AT THE UNIVERSITY OF MARYLAND */
@@ -40,18 +40,6 @@ BODY {
   margin-right: 0;
 }
 
-/* new skill: changing html tags to css divs */
-.menu {
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-}
-
-/* this is the tricky part! tripped lot of people up this time */
-.menu li{
-  display: inline;
-}
-
 /* section titles: Experience, Education, Skills */
 .sectionheader{
   font-size: 1.5em;
@@ -65,6 +53,7 @@ BODY {
   margin-left: 0;
   width: 70%;
   min-width: 300px;
+  font-style: bold;C
 }
 
 /* job title: Investigative Reporter, etc */
@@ -94,6 +83,18 @@ BODY {
 /* body text... used to be the <p> tag */
 .description {
   margin: 10px 0px;
+}
+
+/* new skill: changing html tags to css divs */
+.menu {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+/* this is the tricky part! tripped lot of people up this time */
+.menu li{
+  display: inline;
 }
 
 /* lists: contact info, education, skills */

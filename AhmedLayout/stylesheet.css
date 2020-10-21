@@ -1,0 +1,45 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+#byline {
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+}
+
+img{
+  width: 100%;
+}
+h1{
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+p{
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
+
+#photohed{
+  font-family: Georgia, serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#photocap{
+  font-family: Georgia, serif;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+#photoby{
+  font-family: Georgia, serif;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+blockquote{
+  font-size: 30px;
+}

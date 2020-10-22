@@ -6,6 +6,10 @@
 
 /* This demonstrates that I have learned how to insert comments in CSS */
 
+img{
+    width: 100%;
+}
+
 h1{
   font-family: Georgia, serif;
   font-size: 35px;
@@ -14,6 +18,7 @@ h1{
 #byline{
   font-family: Georgia, serif;
   font-size: 15px;
+  margin-bottom: 30px;
 }
 
 p{

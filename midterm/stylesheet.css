@@ -1,0 +1,32 @@
+
+#content{
+  margin: 0 auto;
+  width: 900px;
+}
+
+/* This demonstrates that I have learned how to insert comments in CSS */
+
+h1{
+  font-family: Georgia, serif;
+  font-size: 35px;
+}
+
+#byline{
+  font-family: Georgia, serif;
+  font-size: 15px;
+}
+
+p{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+h2{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 25px;
+}
+
+#related{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}

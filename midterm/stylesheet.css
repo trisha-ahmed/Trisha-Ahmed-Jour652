@@ -7,7 +7,7 @@
 /* This demonstrates that I have learned how to insert comments in CSS */
 
 img{
-    width: 100%;
+  width: 100%;
 }
 
 h1{
@@ -29,6 +29,11 @@ p{
 h2{
   font-family: Helvetica, Arial, sans-serif;
   font-size: 25px;
+}
+
+blockquote{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
 }
 
 #related{

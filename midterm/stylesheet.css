@@ -10,6 +10,12 @@ img{
   width: 100%;
 }
 
+#photocap{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
 h1{
   font-family: Georgia, serif;
   font-size: 35px;
@@ -19,6 +25,7 @@ h1{
   font-family: Georgia, serif;
   font-size: 15px;
   margin-bottom: 30px;
+  color: #FE4660;
 }
 
 p{
@@ -32,8 +39,20 @@ h2{
 }
 
 blockquote{
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Georgia, serif;
   font-size: 20px;
+  background-color: #FEEFBA;
+  width: 500px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #98210A;
+  font-weight: bold;
+}
+
+.fraud{
+  color:#FE4660;
 }
 
 #related{

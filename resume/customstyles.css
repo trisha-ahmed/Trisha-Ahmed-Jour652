@@ -1,6 +1,16 @@
 
 body{
   font-family: 'Lato', sans-serif;
+  background-color: #F9F4EE;
+}
+
+hr{
+  border-width: 10px;
+  border-color: #4A6734;
+}
+
+img{
+  width:100%;
 }
 
 .center{
@@ -11,8 +21,8 @@ body{
   margin-top: 40px;
 }
 
-h1{
-  color: blue;
+h4{
+  color:#FFB923;
 }
 
 #footer{

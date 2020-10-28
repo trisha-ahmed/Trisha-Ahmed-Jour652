@@ -1,12 +1,7 @@
 
 body{
-  font-family: 'Lato', sans-serif;
-  background-color: #F9F4EE;
-}
-
-hr{
-  border-width: 10px;
-  border-color: #4A6734;
+  font-family: 'Lato', Helvetica, sans-serif;
+  background-color:#E3E3E3;
 }
 
 img{
@@ -21,8 +16,30 @@ img{
   margin-top: 40px;
 }
 
+h2{
+  margin-top: 50px;
+  font-size: 45px;
+}
+
+h3{
+  margin-top: 35px;
+  font-size: 30px;
+}
+
 h4{
-  color:#FFB923;
+    font-size: 20px;
+    font-weight: bold;
+    color: #36663D;
+}
+
+li{
+  font-size: 16px;
+}
+
+hr{
+  border-width: 10px;
+  border-color: #735954;
+  margin-top: 50px;
 }
 
 #footer{

@@ -27,14 +27,14 @@ p{
 .row{
   margin-left: 50px;
   margin-right: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #28A745;
+  background-color: #E45563;
   color: white;
   text-align: center;
   margin-top: 100px;

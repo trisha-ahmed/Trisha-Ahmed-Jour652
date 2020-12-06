@@ -1,0 +1,185 @@
+
+.color{
+  color:#BD0026;
+}
+
+.hero-container{
+  position: relative;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-image{
+  width: 100%;
+}
+
+.headline{
+  font-size: 2em;
+  font-weight:700;
+  font-family: 'Source Serif Pro', serif;
+  margin-top: 50px;
+}
+
+.byline{
+  font-size:16px;
+  font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 30px;
+}
+
+.img-person {
+ margin-top: 30px;
+ margin-bottom: 30px;
+}
+
+p{
+  font-size:14px;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.graphic  {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+hr {
+  margin-top: 28px;
+  border-bottom:1px;
+  border-color: #FA4F23;
+}
+
+.chapter{
+  font-size:1.3em;
+  font-weight:700;
+  background-color: #FFEDA0;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.bg-red {
+  background-color: #B2182B;
+  color: whitesmoke;
+}
+.bg-green {
+  background-color: #007000;
+  color: whitesmoke;
+}
+
+.contributors{
+  margin-top: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.footer {
+  width: 100%;
+  background-color: #377321;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.quote {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 700;
+  text-align: center;
+  color: #FA4F23;
+}
+.quote-byline {
+  font-family: 'Titillium Web', sans-serif;
+  font-style: italic;
+  text-align: center;
+}
+
+.sidebar {
+  background-color: antiquewhite;
+  border-radius: 5px;
+}
+.sidebar-headline {
+  padding-top: 2vh;
+  text-align: center;
+  color:#B2182B;
+  font-family: 'Source Serif Pro', serif;
+}
+.caption {
+font-style: italic;
+}
+
+.enforce-min-width {
+  min-width:412px !important;
+}
+/*Bootstrap Overrides */
+.container {
+  max-width: 860px;
+}
+
+.hyperlink-box {
+  border-color: #4e352373;
+  border-width: 2px;
+  border-radius: 5px;
+  border-style: solid;
+  font-family: 'Source Serif Pro', serifserif;
+  margin-top: 60px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.hyperlink-red {
+  color: #B2182B;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.hyperlink-green {
+  color: #4f8a3a;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.hyperlink-blue {
+  color: #255fad;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+/*Hyperlink actions*/
+/* visited link */
+a:visited {
+  color: #3d0a6d;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: #072c4e;
+}
+
+
+/* Media queries */
+/* Change font for headline*/
+@media screen and (max-width: 576px) {
+  .chapter {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .headline {
+    font-size: 2em;
+  }
+
+  .byline {
+    font-size: 1em;
+  }
+
+  .col {
+    min-width: 330px;
+  }
+
+}

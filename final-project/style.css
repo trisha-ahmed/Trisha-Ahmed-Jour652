@@ -1,0 +1,388 @@
+.navbar {
+  background-color: #242733;
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+}
+
+/* These icons transition to red. Would it count for extra credit?*/
+ion-icon {
+  color: #fefefe;
+  font-size: 30px;
+  transition: 0.5s
+}
+
+ion-icon:hover {
+  color:#eb2e38
+}
+/* This is the end of the transition */
+
+.smaller-width {
+  max-width: 750px !important;
+}
+
+.larger-width {
+  max-width: 1500px !important;
+}
+
+p {
+  font-family: Lato;
+  font-size: 1em;
+}
+
+.header {
+  text-align: center;
+  font-size: 2em;
+  margin: 30px 0px 15px 0;
+  font-weight: 700;
+}
+
+.sub-header {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 40px;
+}
+
+.by-line {
+  font-style: italic;
+  font-size: 1em;
+}
+
+.pink-text {
+  color: #FF586D
+}
+
+.orange-text {
+  color: #FC8A46
+}
+
+.purple-text {
+  color: #6B1F7B
+}
+
+.bg-blue {
+  background-color: #7DCADC;
+}
+
+.border-blue {
+  border-color: #7DCADC;
+}
+
+.bg-orange {
+  background-color: #FFA689;
+}
+
+.border-orange {
+  border-color: #FFA689;
+}
+
+.bg-purple {
+  background-color: #C8B2D6;
+}
+
+.border-purple {
+  border-color: #C8B2D6;
+}
+
+.bg-yellow {
+  background-color: #DAB266;
+}
+
+.border-yellow {
+  border-color: #DAB266;
+}
+
+.bg-metallic-pink {
+  background-color: #C78A87;
+}
+
+.border-metallic-pink {
+  border-color: #C78A87;
+}
+
+.bg-dark-blue {
+  background-color: #93A5BE;
+}
+
+.border-dark-blue {
+  border-color: #93A5BE;
+}
+
+.bg-scruggs {
+  background-color:  #B29479;
+}
+
+.border-scruggs {
+  border-color:  #B29479;
+}
+
+.bg-pleasant-pink {
+  background-color:  #C8A2AF;
+}
+
+.border-pleasant-pink {
+  border-color:  #C8A2AF;
+}
+
+.bg-pretty-blue {
+  background-color: #014C8F;
+}
+
+.border-pretty-blue {
+  border-color: #014C8F;
+}
+
+.bg-bright-green {
+  background-color: #79A15B;
+}
+
+.border-bright-green {
+  border-color: #79A15B;
+}
+
+.bg-rob {
+  background-color: #CE696C;
+}
+
+.border-rob {
+  border-color: #CE696C;
+}
+
+.bg-dark-purple {
+  background-color: #765B97;
+}
+
+.border-dark-purple {
+  border-color: #765B97;
+}
+
+.bg-sunshine-orange {
+  background-color: #FBA465;
+}
+
+.border-sunshine-orange {
+  border-color: #FBA465;
+}
+
+.bg-ann {
+  background-color: #92A847
+}
+
+.border-ann {
+  border-color: #92A847;
+}
+
+.bg-sky-blue {
+  background-color: #7FC1F1;
+}
+
+.border-sky-blue {
+  border-color: #7FC1F1;
+}
+
+.bg-nature-brown {
+  background-color: #B6846B;
+}
+
+.border-nature-brown {
+  border-color: #B6846B;
+}
+
+.bg-mishu-red {
+  background-color: #D14009;
+}
+
+.border-mishu-red {
+  border-color: #D14009;
+}
+
+.bg-cute-purple {
+  background-color: #A57EAB;
+}
+
+.border-cute-purple {
+  border-color: #A57EAB;
+}
+
+.bg-ending-green {
+  background-color: #7B9B4A;
+}
+
+.border-ending-green {
+  border-color: #7B9B4A;
+}
+
+.candidate {
+  color: whitesmoke;
+  border-width: 3px;
+  border-style: double;
+  padding: 10px 10px 0px 10px;
+  border-radius: 10px;
+}
+
+.candidate-img {
+  text-align: center;
+}
+
+.rounded-border {
+  border-radius: 5px;
+}
+
+.candidate-name {
+  font-size: 1.25em;
+  text-align: center;
+  color: black;
+  text-align: center;
+  font-weight: 900;
+}
+
+.photo-source {
+  font-style: italic;
+  font-size: .75em;
+  color: black;
+}
+
+.candidate-quote {
+  font-size: 1.3em;
+  font-family: Lato;
+  color: black;
+  text-align: center;
+  border-style: outset;
+  border-width: 3px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #242733;
+  font-family: Lato;
+  font-size: 1em;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* adjust paragraph font-size*/
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+  .candidate-quote {
+    font-size: 1.2em;
+  }
+
+  .header {
+    font-size: 1.6em;
+  }
+
+  .sub-header {
+    font-size: 1.2em;
+  }
+
+  .by-line {
+    font-style: italic;
+    font-size: 0.6em;
+  }
+
+  .logo {
+    max-width: 75px;
+  }
+
+  ion-icon {
+    font-size: 20px;
+  }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+  p {
+    font-size: 0.8em;
+  }
+  .candidate-quote {
+    font-size: 1em;
+  }
+
+  .header {
+    font-size: 1.2em;
+  }
+
+  .sub-header {
+    font-size: 1em;
+  }
+
+  .by-line {
+    font-style: italic;
+    font-size: 0.4em;
+  }
+
+  ion-icon {
+    font-size: 20px;
+  }
+
+  .logo {
+    max-width: 75px;
+  }
+
+}
+
+/* Adjusting iframes*/
+
+.graphic {
+  margin: 30px 0 30px 0;
+}
+
+.chart-1 {
+  margin: 30px 0 30px 0;
+  height: 490px !important;
+}
+
+/*chart-1 */
+
+@media only screen and (max-width: 600px) {
+  .chart-1 {
+    height: 430px !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .chart-1 {
+    height: 370px !important;
+  }
+}
+
+/*chart-2 */
+
+@media only screen and (max-width: 470px) {
+  .chart-2 {
+    height: 880px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .chart-2 {
+    height: 950px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .chart-2 {
+    height: 990px !important;
+  }
+}
+
+/*chart-3 */
+
+@media only screen and (max-width: 480px) {
+  .chart-3 {
+    height: 950px !important;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .chart-3 {
+    height: 890px !important;
+  }
+}

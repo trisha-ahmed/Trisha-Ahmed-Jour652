@@ -7,6 +7,10 @@
   height: auto;
 }
 
+.cover-image{
+  width: 100%;
+}
+
 /* These icons transition to red. Would it count for extra credit?*/
 ion-icon {
   color: #fefefe;
